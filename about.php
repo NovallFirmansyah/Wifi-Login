@@ -14,28 +14,19 @@
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-<div class="banner">
-        <video src="./asset/bgvid.mp4" type="video/mp4" autoplay muted loop></video>
-    
-    <!-- Header -->
-
-    <div class="content" id="home"> 
-        <nav>
-            <img src="./asset/Logo.png" class="logo" alt="Logo" title="Wifi Login">
-            
-            <ul class="navbar">
-                <li>
-                    <a href="./index.php">Wifi Login</a>
-                </li>
+<main class="main">
+        <div class="navbar">
+            <img src="./asset/Logo.png" >
+            <ul>
+                <li><a href="index.php">Wifi Login</a></li>    
+                <li><a href="about.php" class="active">Informasi Kelompok</a></li>
             </ul>
-        </nav>
-</body>
-
-<body1>
-    <div class="wrapper">
-        <form action="" method="post">
-            <h1>Under Maintenance</h1>
-        </form>
-    </div>
+        </div>
+        <div class="home">
+            <div class="home-content">
+                <h1>Under Maintenance.</h1>
+            </div>
+        </div>
+    </main>
 </body1>
 </html>

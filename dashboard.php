@@ -35,26 +35,21 @@ if (isset($_POST['Logout'])) {
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-<div class="banner">
-        <video src="./asset/bgvid.mp4" type="video/mp4" autoplay muted loop></video>
-    
-    <!-- Header -->
+    <main class="main">
+        <div class="navbar">
+            <img src="./asset/Logo.png" >
+        </div>
+        <div class="home">
+            <div class="home-content">
+            <div class="wrapper">
+                <form action="" method="post">
+                <h1>Login berhasil!</h1><br>
+                <button type="submit" name="Logout" class="btn">Logout</button>
+                </form>
+            </div>
+        </div>
+    </main>
 
-    <div class="content" id="home"> 
-        <nav>
-            <img src="./asset/Logo.png" class="logo" alt="Logo" title="Wifi Login">
-            
-            <ul class="navbar">
-            </ul>
-        </nav>
+
 </body>
-
-<body1>
-    <div class="wrapper">
-        <form action="" method="post">
-            <h1>Login Berhasil</h1><br>
-            <button type="submit" name="Logout" class="btn">Logout</button>
-        </form>
-    </div>
-</body1>
 </html>

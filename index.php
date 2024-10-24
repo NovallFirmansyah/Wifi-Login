@@ -59,33 +59,36 @@ if (isset($_POST['Login'])) {
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-<div class="banner">
-        <video src="./asset/bgvid.mp4" type="video/mp4" autoplay muted loop></video>
-    
-    <!-- Header -->
-
-    <div class="content" id="home"> 
-        <nav>
-            <img src="./asset/Logo.png" class="logo" alt="Logo" title="Wifi Login">
-            
-            <ul class="navbar">
-                <li>
-                    <a href="./about.php">Informasi Kelompok</a>
-                </li>
+    <main class="main">
+        <div class="navbar">
+            <img src="./asset/Logo.png" >
+            <ul>
+                <li><a href="index.php" class="active">Wifi Login</a></li>    
+                <li><a href="about.php">Informasi Kelompok</a></li>
             </ul>
-        </nav>
-</body>
-
-<body1>
+        </div>
+        <div class="home">
+            <div class="home-content">
+                <h1>WIFI LOGIN</h1>
+                <p>Selamat datang di WIFI LOGIN kelompok 6, sebelum melanjutkan silahkan masukkan password terlebuh dahulu ya! </p>
+                <button class="start">Masukkan Password</button>
+            </div>
+        </div>
+    </main>
+    
+    <div class="popup-info">
     <div class="wrapper">
         <form action="" method="post">
             <h1>Wifi Login</h1>
                 <div class="inputbox">
-                    <input  type="password" required="Requiered" name="Pass">
+                    <input  type="password" required="requiered" name="Pass">
                     <span>password</span><br>
                 </div>
             <button type="submit" name="Login" class="btn">Login</button>
+            <button class="btn exit-btn">Kembali</button>
         </form>
     </div>
-</body1>
+    <script src="Home.js"></script>
+</body>
+
 </html>
